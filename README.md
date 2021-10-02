@@ -1,14 +1,12 @@
-# generative-art-node
+# This is my own version built on top of generative-art-node
 
-Create generative art by using the canvas api and node js
+it fixed all the bug that generative-art-node has including problem with overload on memory and crash
+- race condition between arranging the layer info and saving the picture in a file. 
 
-![](https://github.com/HashLips/generative-art-node/blob/main/src/preview.png)
 
 ## Installation
 
 ```
-git clone https://github.com/HashLips/generative-art-node
-
 yarn add all
 ```
 
